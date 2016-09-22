@@ -7,18 +7,19 @@
     </modules>
     <global>
         <models>
-            <php7>
+            <magecloud_php7>
                 <class>Magecloud_PHP7_Model</class>
-                <resourceModel>php7_resource</resourceModel>
-            </php7>
-            <php7_resource>
-                <class>Magecloud_PHP7_Model_Resource</class>
-            </php7_resource>
+            </magecloud_php7>
+            <core>
+                <rewrite>
+                    <layout>Magecloud_PHP7_Model_Layout</layout>
+                </rewrite>
+            </core>
         </models>
         <helpers>
-            <php7>
+            <magecloud_php7>
                 <class>Magecloud_PHP7_Helper</class>
-            </php7>
+            </magecloud_php7>
         </helpers>
     </global>
 </config>
