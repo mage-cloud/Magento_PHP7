@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magecloud_PHP7>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magecloud_PHP7>
+    </modules>
+</config>
