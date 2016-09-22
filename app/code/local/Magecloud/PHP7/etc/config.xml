@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Magecloud_PHP7>
-            <version>1.0</version>
+            <version>1.0.1</version>
         </Magecloud_PHP7>
     </modules>
     <global>
